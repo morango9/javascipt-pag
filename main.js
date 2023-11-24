@@ -10,7 +10,7 @@ function tocaSomPom (selectorAudio) {
     }
 }
 
-const listaDeTeclas = documen.querySelectorAll('.tecla');
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
 //para
 for (let contador = 0; contador < listaDeTeclas.length; contador++){
@@ -36,6 +36,9 @@ tecla.onclik = function() {
  }
 
 }
+
+
+
 
 
 
